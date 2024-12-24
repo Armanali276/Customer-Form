@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fetchUserCountry();
 
     // Show the first step after a delay
-    setTimeout(() => formContainer.classList.remove("hide"), 3000);
+    // setTimeout(() => formContainer.classList.remove("hide"), 3000);
 
     // Function to show a specific step
     function showStep(index) {
