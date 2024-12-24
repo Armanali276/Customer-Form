@@ -382,7 +382,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const errorDiv = doneForm.querySelector('.error')
         innerContent.classList.add('hide')
         loader.classList.remove('hide')
-        fetch(`http://localhost:3000/submit-form`, {
+        fetch(`/submit-form`, {
         // fetch(`https://getdigitalwork.com/cscustomer/submit.php`, {
         // fetch(`https://cdn.jsdelivr.net/gh/Armanali276/form@main/form.php`, {
         // fetch(`https://cdn.jsdelivr.net/gh/Armanali276/form@main/form.js`, {
