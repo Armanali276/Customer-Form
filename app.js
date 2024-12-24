@@ -8,7 +8,7 @@ const app = express();
 
 // CORS ko use karna
 app.use(cors()); // Yeh CORS middleware sab routes par apply hoga
-
+app.use(express.static('public'));
 app.use(bodyParser.json()); // Parse incoming JSON data
 
 // Initialize Shopify API
